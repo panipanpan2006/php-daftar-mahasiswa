@@ -1,0 +1,62 @@
+[
+    {
+        "nama": "Andi",
+        "nim": "21060125150101",
+        "mk": "Pengembangan Web",
+        "nilai": 88
+    },
+    {
+        "nama": "Budi",
+        "nim": "21060125150102",
+        "mk": "Pengembangan Web",
+        "nilai": 85
+    },
+    {
+        "nama": "Citra",
+        "nim": "21060125150103",
+        "mk": "Komputasi Cerdas",
+        "nilai": 90
+    },
+    {
+        "nama": "Dewi",
+        "nim": "21060125150104",
+        "mk": "Basis Data",
+        "nilai": 72
+    },
+    {
+        "nama": "Eka",
+        "nim": "21060125150105",
+        "mk": "Komputasi Cerdas",
+        "nilai": 87
+    },
+    {
+        "nama": "Fajar",
+        "nim": "21060125150106",
+        "mk": "Basis Data",
+        "nilai": 50
+    },
+    {
+        "nama": "Gina",
+        "nim": "21060125150107",
+        "mk": "Pengembangan Web",
+        "nilai": 91
+    },
+    {
+        "nama": "Hadi",
+        "nim": "21060125150108",
+        "mk": "Komputasi Cerdas",
+        "nilai": 64
+    },
+    {
+        "nama": "Intan",
+        "nim": "21060125150109",
+        "mk": "Rekayasa Perangkat Lunak",
+        "nilai": 93
+    },
+    {
+        "nama": "Joko",
+        "nim": "21060125150110",
+        "mk": "Rekayasa Perangkat Lunak",
+        "nilai": 37
+    }
+]
