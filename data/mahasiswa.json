@@ -8,55 +8,55 @@
     {
         "nama": "Budi",
         "nim": "21060125150102",
-        "mk": "Pengembangan Web",
-        "nilai": 85
+        "mk": "Basis Data",
+        "nilai": 75
     },
     {
-        "nama": "Citra",
-        "nim": "21060125150103",
-        "mk": "Komputasi Cerdas",
+        "nama": "Zain",
+        "nim": "21060123110050",
+        "mk": "Multimedia",
         "nilai": 90
     },
     {
-        "nama": "Dewi",
-        "nim": "21060125150104",
+        "nama": "Frans",
+        "nim": "21060123140119",
         "mk": "Basis Data",
         "nilai": 72
     },
     {
-        "nama": "Eka",
-        "nim": "21060125150105",
+        "nama": "Banar",
+        "nim": "21060123140160",
         "mk": "Komputasi Cerdas",
         "nilai": 87
     },
     {
-        "nama": "Fajar",
-        "nim": "21060125150106",
+        "nama": "Alfath",
+        "nim": "21060123140178",
         "mk": "Basis Data",
-        "nilai": 50
+        "nilai": 70
     },
     {
-        "nama": "Gina",
-        "nim": "21060125150107",
-        "mk": "Pengembangan Web",
+        "nama": "Royyan",
+        "nim": "21060123140127",
+        "mk": "Fisika Mekanika dan Panas",
         "nilai": 91
     },
     {
-        "nama": "Hadi",
+        "nama": "Antarest",
         "nim": "21060125150108",
-        "mk": "Komputasi Cerdas",
+        "mk": "Elektronika Kedokteran",
         "nilai": 64
     },
     {
-        "nama": "Intan",
-        "nim": "21060125150109",
-        "mk": "Rekayasa Perangkat Lunak",
-        "nilai": 93
+        "nama": "Nopal",
+        "nim": "21060123140205",
+        "mk": "Kimia Dasar",
+        "nilai": 53
     },
     {
-        "nama": "Joko",
-        "nim": "21060125150110",
-        "mk": "Rekayasa Perangkat Lunak",
-        "nilai": 37
+        "nama": "Rafael",
+        "nim": "21060123130087",
+        "mk": "Mekatronika",
+        "nilai": 81
     }
 ]

@@ -6,16 +6,16 @@ require __DIR__ . '/functions.php';
 $exists = file_exists(DATA_FILE) && filesize(DATA_FILE) > 0;
 if (!$exists) {
     $mahasiswa_default = [
-        ["nama" => "Andi",  "nim" => "21060125150101", "mk" => "Pengembangan Web",          "nilai" => 88],
-        ["nama" => "Budi",  "nim" => "21060125150102", "mk" => "Pengembangan Web",          "nilai" => 85],
-        ["nama" => "Citra", "nim" => "21060125150103", "mk" => "Komputasi Cerdas",         "nilai" => 90],
-        ["nama" => "Dewi",  "nim" => "21060125150104", "mk" => "Basis Data",                "nilai" => 72],
-        ["nama" => "Eka",   "nim" => "21060125150105", "mk" => "Komputasi Cerdas",         "nilai" => 87],
-        ["nama" => "Fajar", "nim" => "21060125150106", "mk" => "Basis Data",                "nilai" => 50],
-        ["nama" => "Gina",  "nim" => "21060125150107", "mk" => "Pengembangan Web",          "nilai" => 91],
-        ["nama" => "Hadi",  "nim" => "21060125150108", "mk" => "Komputasi Cerdas",         "nilai" => 64],
-        ["nama" => "Intan", "nim" => "21060125150109", "mk" => "Rekayasa Perangkat Lunak", "nilai" => 93],
-        ["nama" => "Joko",  "nim" => "21060125150110", "mk" => "Rekayasa Perangkat Lunak", "nilai" => 37],
+        ["nama" => "Andi",     "nim" => "21060125150101", "mk" => "Pengembangan Web",         "nilai" => 88],
+        ["nama" => "Budi",     "nim" => "21060125150102", "mk" => "Basis Data",               "nilai" => 75],
+        ["nama" => "Zain",     "nim" => "21060123110050", "mk" => "Multimedia",               "nilai" => 90],
+        ["nama" => "Frans",    "nim" => "21060123140119", "mk" => "Basis Data",               "nilai" => 72],
+        ["nama" => "Banar",    "nim" => "21060123140160", "mk" => "Komputasi Cerdas",         "nilai" => 87],
+        ["nama" => "Alfath",   "nim" => "21060123140178", "mk" => "Basis Data",               "nilai" => 70],
+        ["nama" => "Royyan",   "nim" => "21060123140127", "mk" => "Fisika Mekanika dan Panas","nilai" => 91],
+        ["nama" => "Antarest", "nim" => "21060125150108", "mk" => "Elektronika Kedokteran",   "nilai" => 64],
+        ["nama" => "Nopal",    "nim" => "21060123140205", "mk" => "Kimia Dasar",              "nilai" => 53],
+        ["nama" => "Rafael",   "nim" => "21060123130087", "mk" => "Mekatronika",              "nilai" => 81],
     ];
     save_mahasiswa($mahasiswa_default);
 }
@@ -251,7 +251,7 @@ function qs(array $overrides = []) {
                             <td class="center"><?= (int)$m['nilai'] ?></td>
                             <td class="center"><span style="padding:4px 8px;border-radius:6px;font-weight:600"><?= $grade ?></span></td>
                             <td class="center">
-                                <a class="btn btn-edit" href="edit.php?nim=<?= urlencode($m['nim']) ?>">Edit</a>
+                                <a class="btn btn-edit" href="simpan.php?nim=<?= urlencode($m['nim']) ?>">Edit</a>
                                 <button class="btn btn-danger" onclick="confirmDelete('<?= htmlspecialchars($m['nim'], ENT_QUOTES) ?>','<?= htmlspecialchars($m['nama'], ENT_QUOTES) ?>')">Hapus</button>
                             </td>
                         </tr>

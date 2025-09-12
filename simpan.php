@@ -1,5 +1,4 @@
 <?php
-// edit.php
 require __DIR__ . '/functions.php';
 
 $err = '';
@@ -75,7 +74,7 @@ if (!$record && $_SERVER['REQUEST_METHOD'] !== 'POST') {
             <div class="alert error"><?= $err ?></div>
         <?php endif; ?>
 
-        <form method="post" action="edit.php">
+        <form method="post" action="simpan.php">
             <input type="hidden" name="original_nim" value="<?= htmlspecialchars($original_nim) ?>">
 
             <label>Nama
